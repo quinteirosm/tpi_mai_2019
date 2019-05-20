@@ -1,5 +1,5 @@
 @media screen and (min-width: 961px) {
-/* CSS RESET */
+/* ------------------------------- CSS RESET ------------------------------- */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -23,7 +23,7 @@ time, mark, audio, video {
   color: white;
   font-family: 'Roboto', sans-serif;
 }
-/* Texte */
+/* ------------------------------- TEXTE ------------------------------- */
 p{
   font-weight: thin;
   color: #424242;
@@ -36,7 +36,50 @@ h2{
   font-weight: bold;
 }
 
-/* CONTAINER */
+/* ------------------------------- NAVIGATION ------------------------------- */
+header{
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  background-color: #4a4a4a;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 5vh;
+}
+
+header > a > .logo{
+  min-height: 4vh;
+  max-height: 100%;
+}
+
+header ul{
+  list-style-type: none;
+  overflow: hidden;
+  display:inline;
+}
+
+header li{
+  display: inline;
+  margin: 5px;
+}
+
+header li a:hover{
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+header a{
+  text-decoration: none;
+  color: #dbdbdb;
+}
+
+header > ul > li > #current{
+  text-decoration: underline;
+}
+
+
+/* ------------------------------- CONTAINER ------------------------------- */
 .container{
   display: flex;
   flex-direction: column;
@@ -47,13 +90,15 @@ h2{
   min-height: 100vh;
 }
 
-/* Landing page */
+/* ------------------------------- LANDING PAGE ------------------------------- */
 #landingPage{
+  position: relative;
   margin: auto;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  z-index: 2;
 }}
 
 .bg1{
