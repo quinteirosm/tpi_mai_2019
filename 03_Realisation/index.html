@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <title>Virtuali</title>
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-   <link rel="icon" href="imgs/favicon.svg" type="image/gif" sizes="16x16"> 
+  <link rel="icon" href="imgs/favicon.svg" type="image/gif" sizes="16x16">
 </head>
+
 <body>
   <!-- Navigation --------------------------------------------------------------->
   <header>
@@ -25,19 +27,35 @@
     </ul>
   </header>
   <!-- Landing Page --------------------------------------------------------------->
-  <section id="landingPage" class="container bg1">
-      <img src="imgs/logo.svg" class="logo" alt="logoVirtuali">
-      <a href="vr.html"><h1>La VR</h1></a>
-      <a href="blog.html"><h1>Le blog</h1></a>
-      <a href="association.html"><h1>L'association</h1></a>
-      <a href="#contact"><h1>Contact</h1></a>
-      <a href="#pages" id="chevronBas" class="fas fa-chevron-down fa-5x"></a>
+  <section id="landingPage" class="contColumn bg1">
+    <img src="imgs/logo.svg" class="logo" alt="logoVirtuali">
+    <a href="vr.html">
+      <h1>La VR</h1>
+    </a>
+    <a href="blog.html">
+      <h1>Le blog</h1>
+    </a>
+    <a href="association.html">
+      <h1>L'association</h1>
+    </a>
+    <a href="#contact">
+      <h1>Contact</h1>
+    </a>
+    <a href="#pages" id="chevronBas" class="fas fa-chevron-down fa-5x"></a>
   </section>
   <!-- Section de redirection --------------------------------------------------------------->
-  <section id="pages" class="container">
-
+  <section id="pages" class="contRow">
+    <div class="bloc">VR</div>
+    <a href="" class="far fa-newspaper"></a>
+    <div class="bloc">Association</div>
+    <a href="" class="fas fa-envelope"></a>
+    <a href="" class="fas fa-vr-cardboard"></a>
+    <div class="bloc">News</div>
+    <a href="" class="fas fa-users"></a>
+    <div class="bloc">Contact</div>
   </section>
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 <footer></footer>
+
 </html>
