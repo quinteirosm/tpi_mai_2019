@@ -20,13 +20,13 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
   text-decoration: none;
-  color: #424242;
+  color: white;
   font-family: 'Roboto', sans-serif;
 }
-
 /* Texte */
 p{
   font-weight: thin;
+  color: #424242;
 }
 h1{
   font-size: 2em;
@@ -50,7 +50,16 @@ h2{
 /* Landing page */
 #landingPage{
   margin: auto;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }}
+
+.bg1{
+  background-image: url("imgs/femmeCiel.jpg");
+  box-shadow: inset 2000px 0 0 0 rgba(0, 0, 0, 0.5);
+}
 
 .logo{
   max-height: 20vh;
