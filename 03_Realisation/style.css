@@ -24,6 +24,10 @@
     font-family: 'Roboto', sans-serif;
   }
 
+  body {
+    background-color: #f5f6fa;
+  }
+
   /* ------------------------------- TEXTE ------------------------------- */
   p {
     font-weight: thin;
@@ -86,8 +90,8 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-		justify-content: space-around;
-		align-items: center;
+    justify-content: space-around;
+    align-items: center;
   }
 
   .contColumn {
@@ -112,7 +116,7 @@
   }
 
   #landingPage a {
-    color: white;
+    color: #f5f6fa;
   }
 
   .bg1 {
@@ -125,7 +129,7 @@
   }
 
   /* ------------------------------- Section de redirection ------------------------------- */
-  #pages{
+  #pages {
     max-width: 100vw;
     height: 100vh;
   }
@@ -135,39 +139,67 @@
     height: 50vh;
   }
 
-  .bloc{
-		display: flex;
-		justify-content: space-around;
-		align-items: center;
-		height: 20vw;
-		width: 20vw;
+  .blocTxt {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 15vw;
+    width: 15vw;
     background-color: #45AAF2;
   }
 
-	.bloc p{
-		color: white;
-		font-size: 3em;
-		text-align: center;
-	}
+  .blocIcon {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 15vw;
+    width: 15vw;
+  }
+
+  .blocTxt p {
+    color: #f5f6fa;
+    font-size: 3em;
+    text-align: center;
+  }
 
   .icon {
-		color: #2BCBBA;
-		font-size: 8em;
-		text-align: center;
+    color: #2BCBBA;
+    font-size: 10em;
+    text-align: center;
+  }
 
-	}
-	/* ------------------------------- Section Association ------------------------------- */
-	#association{
-	    max-width: 100vw;
-	    height: 100vh;
-	}
-	#association .contColumn,#association .contRow{
-		height: 100vh;
-		width: 45vw;
-	}
-	.textBox{
-		background-color: #CFCFCF;
-		width: 60%;
-		padding: .5vh 0vh 5vh 5vh;
-	}
+  /* ------------------------------- Section Association ------------------------------- */
+  #association {
+    padding: 5vh;
+    max-width: 100vw;
+    height: 100vh;
+  }
+
+  #association .contColumn, #association .contRow {
+    height: 100vh;
+    width: 49vw;
+  }
+
+  .textBox {
+    width: 60%;
+    background-color: rgba(207, 207, 207, .7);
+    z-index: -1;
+    font-size: 1.2em;
+    padding: .5vh 0vh 5vh 5vh;
+  }
+
+  .iconAsso {
+    font-size: 8em;
+    margin-left: -70vh;
+    margin-bottom: -10vh;
+  }
+
+  .assoTxt {
+    margin-right: -70vh;
+  }
+
+  .assoImg {
+    z-index: -3;
+    width: 75%;
+  }
 }
