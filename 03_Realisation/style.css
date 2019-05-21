@@ -4,7 +4,7 @@
   html, body, div, span, applet, object, iframe,
   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
   a, abbr, acronym, address, big, cite, code,
-  del, dfn, em, img, ins, kbd, q, s, samp,
+  del, dfn, rem, img, ins, kbd, q, s, samp,
   small, strike, strong, sub, sup, tt, var,
   b, u, i, center,
   dl, dt, dd, ol, ul, li,
@@ -35,7 +35,7 @@
   }
 
   h1 {
-    font-size: 4em;
+    font-size: 4rem;
     font-weight: 300;
   }
 
@@ -102,7 +102,7 @@
     align-items: center;
   }
 
-  /* ------------------------------- LANDING PAGE ------------------------------- */
+  /* ------------------------------- LANDING 100 ------------------------------- */
   #landingPage {
     position: relative;
     margin: auto;
@@ -119,15 +119,35 @@
     color: #f5f6fa;
   }
 
-  .bg1 {
+  .bg11 {
     background-image: url("imgs/femmeCiel.jpg");
+    box-shadow: inset 2000px 0 0 0 rgba(0, 0, 0, 0.5);
+  }
+
+	.bg21 {
+    background-image: url("imgs/casqueJaune.jpg");
     box-shadow: inset 2000px 0 0 0 rgba(0, 0, 0, 0.5);
   }
 
   .logo {
     max-height: 20vh;
   }
+	/* ------------------------------- LANDING 60 ------------------------------- */
+	#main{
+		position: relative;
+    margin: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+    max-width: 100vw;
+    min-height: 60vh;
+	}
 
+  #main h1 {
+    color: #f5f6fa;
+  }
   /* ------------------------------- Section de redirection ------------------------------- */
   #pages {
     max-width: 100vw;
@@ -158,19 +178,18 @@
 
   .blocTxt p {
     color: #f5f6fa;
-    font-size: 3em;
+    font-size: 3rem;
     text-align: center;
   }
 
   .icon {
     color: #2BCBBA;
-    font-size: 10em;
+    font-size: 10rem;
     text-align: center;
   }
 
   /* ------------------------------- Section Association ------------------------------- */
   #association {
-    padding: 5vh;
     max-width: 100vw;
     height: 100vh;
   }
@@ -182,14 +201,14 @@
 
   .textBox {
     width: 60%;
-    background-color: rgba(207, 207, 207, .7);
     z-index: -1;
-    font-size: 1.2em;
-    padding: .5vh 0vh 5vh 5vh;
+    font-size: 1.2rem;
+    padding: .5vh 0vh 1.5vh 4vh;
+    border-bottom: 1px solid #ccc;
   }
 
   .iconAsso {
-    font-size: 8em;
+    font-size: 7.5rem;
     margin-left: -70vh;
     margin-bottom: -10vh;
   }
@@ -201,5 +220,23 @@
   .assoImg {
     z-index: -3;
     width: 75%;
+  }
+
+  /* ------------------------------- Contact ------------------------------- */
+  #contact {
+    height: 100vh;
+  }
+  /* ------------------------------- Footer ------------------------------- */
+  footer {
+    height: 5vh;
+    background-color: #4a4a4a;
+  }
+
+  footer>img {
+    height: 75%;
+  }
+
+  footer>p {
+    color: white;
   }
 }
