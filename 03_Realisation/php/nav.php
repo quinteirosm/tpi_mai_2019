@@ -8,7 +8,7 @@
     <li>
       <a href="association.php">L'association</a>
     <li>
-      <a href="index.php">Contact</a>
+      <a href="index.php#contact">Contact</a>
     </li>
   </ul>
 </header>
