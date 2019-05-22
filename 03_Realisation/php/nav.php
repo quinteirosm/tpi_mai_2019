@@ -2,9 +2,9 @@
   <a href="index.php"><img class="logo" src="imgs/logo.svg" alt=""></a>
   <ul>
     <li>
-      <a href="vr.php">La VR</a>
+      <a href="vr.php">Explications</a>
     <li>
-      <a href="blog.php">Les nouveautés</a>
+      <a href="blog.php">Le blog</a>
     <li>
       <a href="association.php">L'association</a>
     <li>

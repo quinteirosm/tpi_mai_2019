@@ -1,14 +1,14 @@
 <?php
 
-  class articles{
+  class Article{
 
-  public $h1;
-  public $img;
+  public $titre;
+  public $image;
   public $article;
 
-    function __construct($h1, $img, $article){
-      $this->titre=$h1;
-      $this->image=$img;
+    function __construct($titre, $image, $article){
+      $this->titre=$titre;
+      $this->image=$image;
       $this->article=$article;
     }
 
@@ -22,11 +22,11 @@
       return $this->article;
     }
 
-    function setTitre($h1){
-      return $this->titre = $h1;
+    function setTitre($titre){
+      return $this->titre = $titre;
     }
-    function setImage($img){
-      return $this->image = $img;
+    function setImage($image){
+      return $this->image = $image;
     }
     function setArticle($article){
       return $this->article = $article;
@@ -39,6 +39,16 @@
     }
 }
 
-$article1 = new articles('asd', 'fgh', 'jkl');
+$article1 = new Article('asd', 'fgh', 'jkl');
 
+function afficheArticle(){
+  <<<HTML
+    <h1>{this.getTitre()}</h1>
+    <body><h1>{}</h1>
+    </body>
+    </html>
+HTML;
+}
+
+afficheArticle($article1);
 ?>

@@ -5,9 +5,8 @@
     <?php include_once('php/nav.php'); ?>
   </head>
   <body>
-    <?php include_once('php/articleScript.php'); ?>
     <section id="main" class="contColumn bg31">
-      <h1>Les Nouveautés</h1>
+      <h1>Le blog</h1>
     </section>
     <section id="articlesRecents" class="contRow">
       <?php include_once('php/articles/article1.php'); ?>

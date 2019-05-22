@@ -7,10 +7,10 @@
   <section id="landingPage" class="contColumn bg11">
     <img src="imgs/logo.svg" class="logo" alt="logoVirtuali">
     <a href="vr.php">
-      <h1>VR</h1>
+      <h1>Explications</h1>
     </a>
     <a href="blog.php">
-      <h1>Nouveautés</h1>
+      <h1>Le blog</h1>
     </a>
     <a href="association.php">
       <h1>Association</h1>
@@ -92,7 +92,7 @@
   </section>
   <!-- Section contact --------------------------------------------------------------->
   <section id="contact" class="contColumn">
-    <form action="form_script.php">
+    <form method="post" action="<?php echo strip_tags($_SERVER['REQUEST_URI']); ?>">
     <div>
       <label class="nom" for="nom">Nom</label>
       <input class="champ" type="text" id="nom" name="nom" placeholder="Votre nom..">
@@ -108,7 +108,7 @@
     <input type="submit" value="envoyer">
   </form>
   </section>
-  <script src="script.js"></script>
+  <?php include_once('php/mailEnvoi.php'); ?>
 </body>
 <!-- Footer --------------------------------------------------------------->
 <?php include_once('php/footer.php'); ?>
