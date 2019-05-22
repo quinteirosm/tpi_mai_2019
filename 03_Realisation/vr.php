@@ -18,7 +18,17 @@
     </div>
   </section>
   <section id="vrEn2019">
-    <?php include_once('php/vrEn2019.php'); ?>
+    <h1>
+      Les espérances pour 2019
+    </h1>
+    <div class="contRow topAlign">
+      <div class="left2019">
+        <?php include_once('php/vrEn2019Left.php'); ?>
+      </div>
+      <div class="right2019">
+        <?php include_once('php/vrEn2019Right.php'); ?>
+      </div>
+    </div>
   </section>
 </body>
 <?php include_once('php/footer.php'); ?>

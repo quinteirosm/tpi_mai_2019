@@ -288,3 +288,24 @@
     height: 100%;
     padding: 5vh;
 }
+
+/* ------------------------------- VR - 2018 ------------------------------- */
+#vrEn2019{
+  min-height: 100vh;
+  font-size: 1.5rem;
+  padding: 5vh;
+}
+
+.left2019{
+  width: 45%;
+  height: 110vh;
+}
+
+.right2019{
+  width: 45%;
+  height: 100%;
+}
+
+.topAlign{
+  align-items: flex-start;
+}
