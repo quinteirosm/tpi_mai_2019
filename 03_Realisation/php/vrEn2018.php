@@ -11,11 +11,10 @@ des softwares et bien d’autres changements ont consolidé les technologies d�
 </p>
 <h2>Les films en VR</h2></br>
 <p>
-  Les films en VR ont été “nombreux” cette année, entre autres nous avons:</br></br>
+  Les films en VR ont été “nombreux” cette année, entre autres nous avons:</p></br> 
 <i>Crow: The Legend</i></br>
 <i>Spheres: Songs of Spacetime</i></br>
 <i>Ralph Breaks VR</i></br></br>
-</p>
 <p>
 Pour l’instant ça peut ne pas paraître incroyable mais c’est un pas vers la
 démocratisation de cette technologie, qui selon beaucoup de développeurs et de

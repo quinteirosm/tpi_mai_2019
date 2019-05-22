@@ -47,7 +47,8 @@
   }
 
   i{
-    font-weight:300i;
+    font-weight: 300;
+    font-style: italic;
     color: #424242;
   }
 
