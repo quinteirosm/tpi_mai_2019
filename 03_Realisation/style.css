@@ -22,6 +22,8 @@
     vertical-align: baseline;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
+
+    line-height: 1.5;
   }
 
   body {
@@ -44,6 +46,7 @@
   p {
     font-weight: 300;
     color: #424242;
+    font-size: 1.5rem;
   }
 
   i{
@@ -292,7 +295,6 @@
 /* ------------------------------- VR - 2018 ------------------------------- */
 #vrEn2019{
   min-height: 100vh;
-  font-size: 1.5rem;
   padding: 5vh;
 }
 
