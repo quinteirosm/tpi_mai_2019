@@ -120,7 +120,7 @@
       <div class="swiper-container">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
-            <div class="event1">
+            <div class="events bg42">
               <h1>La VR, les bases</h1>
               <div class="eventInfo">
               <p>
@@ -145,7 +145,7 @@
             </div>
           </div>
           <div class="swiper-slide">
-            <div class="event1">
+            <div class="events bg43">
               <h1>Développez-vous</h1>
               <div class="eventInfo">
               <p>
