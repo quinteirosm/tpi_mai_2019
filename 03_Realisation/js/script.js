@@ -5,6 +5,10 @@ window.onload = function() {
 // Swiper
 var swiper = new Swiper('.swiper-container', {
   loop: true,
+  autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+      },
   pagination: {
     el: '.swiper-pagination',
     dynamicBullets: true,
@@ -29,3 +33,15 @@ function modal(clicked_id)
    var copie = $(".article" + clicked_id).clone();
    $(".articleContent").append(copie)
 };
+
+$(window).scroll(function() {
+
+    if ($("header").scrollTop()>1)
+     {
+        $('.nav').css('display', 'inline-block')
+     }
+    else
+     {
+       $('.nav').fadeIn();
+     }
+ });

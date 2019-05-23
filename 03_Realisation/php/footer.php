@@ -1,5 +1,5 @@
 <footer class="contRow">
     <img src="imgs/logoText.svg" title="logoText" alt="logoText">
-    <p>(c) Miguel Quinteiros, 2019</p>
+    <p>© Miguel Quinteiros, 2019</p>
     <p>Mentions légales</p>
 </footer>

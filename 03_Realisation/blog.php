@@ -6,7 +6,7 @@
     <?php include_once('php/nav.php'); ?>
   </head>
   <body>
-    <section id="main" class="contColumn bg31">
+    <section id="landingPage" class="contColumn bg31">
       <h1>Le blog</h1>
     </section>
     <section id="articlesRecents" class="contRow">

@@ -4,7 +4,7 @@
 <?php include_once('php/loader.php'); ?>
 <?php include_once('php/nav.php'); ?>
 <body>
-  <section id="main" class="contColumn bg21">
+  <section id="landingPage" class="contColumn bg21">
     <h1>La VR</h1>
   </section>
   <section id="description">

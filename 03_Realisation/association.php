@@ -8,7 +8,7 @@
     <title></title>
   </head>
   <body>
-    <section id="landingPageAssoc" class="contColumn bg41">
+    <section id="landingPage" class="contColumn bg41">
       <img src="imgs/logo.svg" class="logo" alt="logoVirtuali">
     </section>
     <section id="presentation" class="contColumn">
@@ -167,6 +167,26 @@
         <div class="swiper-button-prev"></div>
       </div>
     </section>
+
+    <!-- Section contact --------------------------------------------------------------->
+    <section id="contact" class="contRow">
+      <form method="post" action="<?php echo strip_tags($_SERVER['REQUEST_URI']); ?>">
+      <div class="nameBox">
+        <label class="nom" for="nom">Nom</label>
+        <input class="champ" type="text" id="nom" name="nom" placeholder="Votre nom..">
+      </div>
+      <div class="mailBox">
+        <label class="mail" for="email">E-Mail</label>
+        <input class="champ" type="text" id="email" name="email" placeholder="Your last name..">
+      </div>
+      <div class="msgbox">
+        <label class ="message" for="message">Message</label>
+        <textarea class="champ" name="message" placeholder="Tapez votre message ici..."></textarea>
+      </div>
+      <input class="bouton" type="submit" value="envoyer">
+    </form>
+    </section>
+    <?php include_once('php/mailEnvoi.php'); ?>
     <?php include_once('php/scripts.php'); ?>
   </body>
   <?php include_once('php/footer.php'); ?>
