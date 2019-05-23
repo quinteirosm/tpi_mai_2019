@@ -106,7 +106,7 @@
       <label class ="message" for="message">Message</label>
       <textarea class="champ" name="message" placeholder="Tapez votre message ici..."></textarea>
     </div>
-    <input type="submit" value="envoyer">
+    <input class="bouton" type="submit" value="envoyer">
   </form>
   </section>
   <?php include_once('php/mailEnvoi.php'); ?>

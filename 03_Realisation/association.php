@@ -140,7 +140,7 @@
                 Théâtre du Chateau<br>
                 1580 Avenches
               </p>
-              <button type="button" name="button">S'inscrire</button>
+              <button class="bouton" type="button" name="button">S'inscrire</button>
               </div>
             </div>
           </div>
@@ -157,14 +157,14 @@
                 1580 Avenches
 
               </p>
-              <button type="button" name="button">S'inscrire</button>
+              <button class="bouton" type="button" name="button">S'inscrire</button>
               </div>
             </div>
           </div>
         </div>
         <div class="swiper-pagination"></div>
         <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
+        <div class="swiper-button-prev"></div>
       </div>
     </section>
     <?php include_once('php/scripts.php'); ?>
