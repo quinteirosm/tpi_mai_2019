@@ -16,13 +16,18 @@
       if (glob($dossier . "*") != false)
       {
        $count = count(glob($dossier . "*"));
+      }else{
+        echo "Erreur 404: Le dossier n'existe pas :()";
       }
-
       for($i = 1; $i <= $count; $i++){
          include_once('php/articles/article'.$i.'.php');
       }
-      
       ?>
+    </section>
+    <section class="articleShow">
+      <section class="articleContent">
+        <span class="close">&times;</span>
+      </section>
     </section>
     <?php include_once('php/scripts.php'); ?>
   </body>
