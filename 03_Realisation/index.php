@@ -5,18 +5,18 @@
 <?php include_once('php/nav.php'); ?>
 <body>
   <!-- Landing Page --------------------------------------------------------------->
-  <section id="landingPage" class="contColumn bg11">
+  <section id="landingPageIndex" class="contColumn bg11">
     <img src="imgs/logo.svg" class="logo" alt="logoVirtuali">
     <a href="vr.php">
-      <h1>Explications</h1>
+      <h1>La VR</h1>
     </a>
     <a href="blog.php">
       <h1>Le blog</h1>
     </a>
     <a href="association.php">
-      <h1>Association</h1>
+      <h1>L'association</h1>
     </a>
-    <a href="#contact">
+    <a href="association.php#contact">
       <h1>Contact</h1>
     </a>
     <a href="#pages" id="chevronBas" class="fas fa-chevron-down fa-5x"></a>
@@ -25,30 +25,30 @@
   <section id="pages">
     <section class="contRow">
       <div class="blocTxt">
-        <p>VR</p>
+        <a href="vr.php"><p>La VR</p></a>
       </div>
       <div class="blocIcon">
-        <a href="" class="far fa-newspaper icon"></a>
+        <a class="far fa-newspaper icon"></a>
       </div>
       <div class="blocTxt">
-        <p>Association</p>
+        <a href="association.php"><p>L'association</p></a>
       </div>
       <div class="blocIcon">
-        <a href="" class="fas fa-envelope icon"></a>
+        <i class="fas fa-envelope icon"></i>
       </div>
     </section>
     <section class="contRow">
       <div class="blocIcon">
-        <a href="" class="fas fa-vr-cardboard icon"></a>
+        <i class="fas fa-vr-cardboard icon"></i>
       </div>
       <div class="blocTxt">
-        <p>News</p>
+        <a href="blog.php"><p>Le blog</p></a>
       </div>
       <div class="blocIcon">
-        <a href="" class="fas fa-users icon"></a>
+        <i class="fas fa-users icon"></i>
       </div>
       <div class="blocTxt">
-        <p>Contact</p>
+        <a href="association.php#contact"><p>Contact</p></a>
       </div>
     </section>
   </section>
@@ -91,25 +91,6 @@
       <img class="assoImg" src="imgs/bureau.jpg" title="White flower" alt="Something">
     </section>
   </section>
-  <!-- Section contact --------------------------------------------------------------->
-  <section id="contact" class="contColumn">
-    <form method="post" action="<?php echo strip_tags($_SERVER['REQUEST_URI']); ?>">
-    <div>
-      <label class="nom" for="nom">Nom</label>
-      <input class="champ" type="text" id="nom" name="nom" placeholder="Votre nom..">
-    </div>
-    <div>
-      <label class="mail" for="email">E-Mail</label>
-      <input class="champ" type="text" id="email" name="email" placeholder="Your last name..">
-    </div>
-    <div>
-      <label class ="message" for="message">Message</label>
-      <textarea class="champ" name="message" placeholder="Tapez votre message ici..."></textarea>
-    </div>
-    <input class="bouton" type="submit" value="envoyer">
-  </form>
-  </section>
-  <?php include_once('php/mailEnvoi.php'); ?>
   <?php include_once('php/scripts.php'); ?>
 </body>
 <!-- Footer --------------------------------------------------------------->

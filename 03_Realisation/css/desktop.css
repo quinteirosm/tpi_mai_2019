@@ -12,7 +12,7 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+time, mark, audio, video, input, textarea {
   margin: 0;
   padding: 0;
   border: 0;
@@ -30,12 +30,7 @@ body {
 }
 
 .bouton {
-  background: #45AAF2;
-  background-image: -webkit-linear-gradient(top, #45AAF2, #3867d6);
-  background-image: -moz-linear-gradient(top, #45AAF2, #3867d6);
-  background-image: -ms-linear-gradient(top, #45AAF2, #3867d6);
-  background-image: -o-linear-gradient(top, #45AAF2, #3867d6);
-  background-image: linear-gradient(to bottom, #45AAF2, #3867d6);
+  background: #45aaf2;
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
   border-radius: 20px;
@@ -47,14 +42,13 @@ body {
 }
 
 .bouton:hover {
-  background: #45AAF2;
-  background-image: -webkit-linear-gradient(top, #45AAF2, #45AAF2);
-  background-image: -moz-linear-gradient(top, #45AAF2, #45AAF2);
-  background-image: -ms-linear-gradient(top, #45AAF2, #45AAF2);
-  background-image: -o-linear-gradient(top, #45AAF2, #45AAF2);
-  background-image: linear-gradient(to bottom, #45AAF2, #45AAF2);
+  background: #45aaf2;
+  background-image: -webkit-linear-gradient(top, #45aaf2, #409fdb);
+  background-image: -moz-linear-gradient(top, #45aaf2, #409fdb);
+  background-image: -ms-linear-gradient(top, #45aaf2, #409fdb);
+  background-image: -o-linear-gradient(top, #45aaf2, #409fdb);
+  background-image: linear-gradient(to bottom, #45aaf2, #409fdb);
   text-decoration: none;
-  border: none;
 }
 
 /* ------------------------------- TEXTE ------------------------------- */
@@ -67,19 +61,19 @@ h1 {
 h2 {
   font-size: 2rem;
   font-weight: 400;
-  color: #424242;
+  color: #0a1a26;
 }
 
 p {
   font-weight: 300;
-  color: #424242;
+  color: #0a1a26;
   font-size: 1.5rem;
 }
 
 i {
   font-weight: 300;
   font-style: italic;
-  color: #424242;
+  color: #0a1a26;
 }
 
 /* ------------------------------- NAVIGATION ------------------------------- */
@@ -88,11 +82,11 @@ header {
   align-items: center;
   justify-content: space-around;
   flex-flow: row wrap;
-  background-color: #4a4a4a;
+  background-color: #0a1a26;
   position: fixed;
-  top: 0;
   width: 100%;
-  height: 5vh;
+  height: 50px;
+  z-index: 10;
 }
 
 header>a>.logo {
@@ -116,6 +110,10 @@ header a {
   color: #dbdbdb;
 }
 
+.nav{
+  display: none;
+}
+
 /* ------------------------------- CONTAINER ------------------------------- */
 .contRow {
   display: flex;
@@ -134,23 +132,25 @@ header a {
 }
 
 /* ------------------------------- LANDING 100 ------------------------------- */
+#landingPageIndex {
+  position: relative;
+  margin: auto;
+  max-width: 100vw;
+  min-height: 100vh;
+  z-index: 30;
+}
+
 #landingPage {
   position: relative;
   margin: auto;
-  z-index: 10;
   max-width: 100vw;
-  min-height: 100vh;
+  min-height: 60vh;
 }
 
-#landingPageAssoc {
-  position: relative;
-  margin: auto;
-  z-index: -1;
-  max-width: 100vw;
-  min-height: 100vh;
-}
-
-#landingPage a, #landingPage h1 {
+#landingPageIndex a,
+#landingPageIndex h1,
+#landingPage a,
+#landingPage h1{
   color: #f5f6fa;
 }
 
@@ -159,12 +159,7 @@ header a {
 }
 
 /* ------------------------------- LANDING 60 ------------------------------- */
-#main {
-  position: relative;
-  margin: auto;
-  max-width: 100vw;
-  min-height: 60vh;
-}
+
 
 #main h1 {
   color: #f5f6fa;
@@ -310,14 +305,47 @@ header a {
 }
 
 /* ------------------------------- Contact ------------------------------- */
-#contact {
+form{
+  display:flex;
+  margin: auto;
+  flex-direction: column;
   height: 100vh;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
 }
 
+.nameBox, .mailBox, .msgbox{
+  width: 40vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+  margin: 2vh;
+}
+
+.nom, .mail, .message{
+  padding: 2vh;
+  width: 100px;
+  background-color: #45aaf2;
+  text-align: left;
+  color: #ffffff;
+}
+
+.champ{
+  padding: 8px;
+	border: 4px solid #45aaf2;
+	font-weight: bold;
+	text-decoration: none;
+  height: 4vh;
+  width: 100%;
+  background-color: rgba(255, 255, 255, .5);
+}
 /* ------------------------------- Footer ------------------------------- */
 footer {
   height: 5vh;
-  background-color: #4a4a4a;
+  background-color: #0a1a26;
   bottom: 0px;
 }
 
@@ -437,7 +465,7 @@ footer>p {
 }
 
 .close {
-  color: #424242;
+  color: #0a1a26;
   float: right;
   font-size: 28px;
   font-weight: bold;
@@ -478,8 +506,7 @@ footer>p {
 
 /* ------------------------------- Association - Valeurs ------------------------------- */
 #valeurs {
-  padding: 20vh;
-  min-height: 60vh;
+  padding: 5vh;
 }
 
 .cont25 {
@@ -514,8 +541,6 @@ footer>p {
 
 .iconAsso2 {
   font-size: 7rem;
-  margin-left: -10vh;
-  margin-bottom: -5vh;
 }
 
 /* ------------------------------- Association - Membres ------------------------------- */
