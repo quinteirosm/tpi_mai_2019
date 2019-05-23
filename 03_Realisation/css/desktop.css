@@ -1,3 +1,4 @@
+@media (min-width: 501) {
 /* ------------------------------- CSS RESET ------------------------------- */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -389,9 +390,14 @@ footer>p {
   width: 100%;
 }
 
+.article>img:hover {
+  opacity: .75;
+}
+
 .article>p {
-  overflow: hidden;
   white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .articleShow {
@@ -407,6 +413,7 @@ footer>p {
   background-color: rgba(0, 0, 0, 0.4);
 }
 
+/* ------------------------------- Blog - contenu dans modal ------------------------------- */
 .articleContent {
   background-color: #fefefe;
   margin: auto;
@@ -415,6 +422,18 @@ footer>p {
   width: 80%;
   min-height: 80%;
   margin-top: 5vh;
+}
+
+.articleContent>div{
+  max-width: 100vh;
+}
+
+.articleContent>div>img{
+  max-height: 40%;
+}
+
+.articleContent>div>img:hover{
+  opacity: 1;
 }
 
 .close {
@@ -438,7 +457,7 @@ footer>p {
 }
 
 .presentationBox {
-  background-color: #CFCFCF;
+  background-color: #ECECEC;
   padding: 2vh;
   width: 60vw;
   margin-left: -20vw;
@@ -636,4 +655,5 @@ footer>p {
   100% {
     transform: rotate(360deg);
   }
+}
 }
