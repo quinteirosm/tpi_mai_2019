@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <?php include_once('php/header.php'); ?>
+<?php include_once('php/loader.php'); ?>
 <?php include_once('php/nav.php'); ?>
 <body>
   <section id="main" class="contColumn bg21">
@@ -30,6 +31,8 @@
       </div>
     </div>
   </section>
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
 </body>
 <?php include_once('php/footer.php'); ?>
 </html>

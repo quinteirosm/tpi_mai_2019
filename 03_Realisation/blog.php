@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
   <head>
-    <?php include_once('php/loader.php'); ?>
     <?php include_once('php/header.php'); ?>
+    <?php include_once('php/loader.php'); ?>
     <?php include_once('php/nav.php'); ?>
   </head>
   <body>

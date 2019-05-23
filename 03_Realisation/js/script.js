@@ -1,7 +1,8 @@
-$(document).load( = function(){
-  $(".conteneur").css("display ", "none");
-});
+window.onload = function(){
+  $(".conteneur").css("display", "none");
+};
 
+  $(".conteneur").css("display ", "none");
 // Article 1
 $(".article1").click(function(){
   $(".articleShow1").css("visibility", "visible");
