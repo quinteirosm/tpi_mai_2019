@@ -10,25 +10,20 @@
       <h1>Le blog</h1>
     </section>
     <section id="articlesRecents" class="contRow">
-      <?php include_once('php/articles/article1.php'); ?>
-      <?php include_once('php/articles/article2.php'); ?>
-      <?php include_once('php/articles/article3.php'); ?>
-      <?php include_once('php/articles/article4.php'); ?>
-      <div class="articleShow articleShow1">
-        <?php include('php/articles/article1.php'); ?>
-      </div>
-      <div class="articleShow articleShow2">
-        <?php include('php/articles/article2.php'); ?>
-      </div>
-      <div class="articleShow articleShow3">
-        <?php include('php/articles/article3.php'); ?>
-      </div>
-      <div class="articleShow articleShow4">
-        <?php include('php/articles/article4.php'); ?>
-      </div>
+      <?php
+
+      $dossier = "php/articles/";
+      if (glob($dossier . "*") != false)
+      {
+       $count = count(glob($dossier . "*"));
+      }
+
+      for($i = 1; $i <= $count; $i++){
+         include_once('php/articles/article'.$i.'.php');
+      }
+      
+      ?>
     </section>
-    <section id="derniersCasques"></section>
-    <section id="rss"></section>
     <?php include_once('php/scripts.php'); ?>
   </body>
   <?php include_once('php/footer.php'); ?>
