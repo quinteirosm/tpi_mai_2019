@@ -309,10 +309,44 @@ header a {
 }
 
 /* ------------------------------- Contact ------------------------------- */
-#contact {
+form{
+  display:flex;
+  margin: auto;
+  flex-direction: column;
   height: 100vh;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  background:linear-gradient(rgba(219,219,219, 0.8) 100%, rgba(219,219,219, 0.8) 100%), url('../images/earth.jpg');
 }
 
+.nameBox, .mailBox, .msgbox{
+  width: 40vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+  margin: 2vh;
+}
+
+.nom, .mail, .message{
+  padding: 2vh;
+  width: 100px;
+  background-color: rgb(112, 112, 112);
+  text-align: left;
+  color: #ffffff;
+}
+
+.champ{
+  padding: 8px;
+	border: 4px solid #707070;
+	font-weight: bold;
+	text-decoration: none;
+  height: 4vh;
+  width: 100%;
+  background-color: rgba(255, 255, 255, .5);
+}
 /* ------------------------------- Footer ------------------------------- */
 footer {
   height: 5vh;
