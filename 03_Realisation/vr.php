@@ -31,8 +31,7 @@
       </div>
     </div>
   </section>
-  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-  <script type="text/javascript" src="js/script.js"></script>
+  <?php include_once('php/scripts.php'); ?>
 </body>
 <?php include_once('php/footer.php'); ?>
 </html>
