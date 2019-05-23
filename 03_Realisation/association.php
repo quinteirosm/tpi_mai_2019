@@ -116,7 +116,59 @@
         </div>
       </section>
     </section>
+    <section id="event">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="event1">
+              <h1>La VR, les bases</h1>
+              <div class="eventInfo">
+              <p>
+                Vos connaissances sont moindres et
+                vous souhaitez vous perfectionner ?
+                Cette conférence reprend les bases
+                de la VR et vous les explique !
+                Cet évènement met en place un cours
+                d’une heure suivi de 30min de
+                questions/réponses.<br>
+                Si vous souhaitez vous améliorer
+                d’avantages après cette conférence,
+                une deuxième qui fera suite à celle-ci
+                sera mise en place prochainement.<br><br>
+                Cet évènement n’aura lieu que si 20
+                personnes s’y inscrivent.<br><br>
+                Théâtre du Chateau<br>
+                1580 Avenches
+              </p>
+              <button type="button" name="button">S'inscrire</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="event1">
+              <h1>Développez-vous</h1>
+              <div class="eventInfo">
+              <p>
+                Vous voulez accroître vos connaissances au niveau du développement orienté VR ou juste parler d’optimisation avec d’autres développeurs passionnés ?<br>
+                Venez nous rejoindre tous les vendredis de 16h à 20h à nos locaux.<br><br>
+
+                Virtuali <br>
+                Route de la Plaine 28 <br>
+                1580 Avenches
+
+              </p>
+              <button type="button" name="button">S'inscrire</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+      </div>
+    </section>
     <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
   </body>
   <?php include_once('php/footer.php'); ?>
