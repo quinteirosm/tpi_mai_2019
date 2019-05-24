@@ -177,7 +177,7 @@
       </div>
       <div class="mailBox">
         <label class="mail" for="email">E-Mail</label>
-        <input class="champ" type="text" id="email" name="email" placeholder="Your last name..">
+        <input class="champ" type="text" id="email" name="email" placeholder="Votre adresse e-mail..">
       </div>
       <div class="msgbox">
         <label class ="message" for="message">Message</label>
