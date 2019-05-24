@@ -430,3 +430,183 @@ footer>p {
 #promouvoir>*, #aider>*, #evoluer>*, #connecter>*{
   margin: 2vh;
 }
+
+/* ------------------------------- Association - Membres ------------------------------- */
+#membres {
+  height: 100%;
+  max-width: 100vw;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+.rightAsso{
+  margin-top: 10vh;
+}
+
+.portrait {
+  margin: auto;
+  width: 80%;
+}
+
+.presentationMembre {
+  background-color: #ECECEC;
+  width: 90%;
+  padding: 1vh;
+  margin: auto;
+  margin-top: -3vh;
+}
+
+/* ------------------------------- Association - Évènements ------------------------------- */
+#event {
+  width: 100%;
+}
+
+.events {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.events>h1 {
+  font-size: 3rem;
+  height: 100%;;
+  margin-left: 0;
+  text-align: left;
+  padding: 1vh;
+}
+
+.eventInfo {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: left;
+  height: 100%;
+  padding: 5vh;
+}
+
+.eventInfo>p{
+  font-size: 1.2rem;
+}
+
+/* ------------------------------- Contact ------------------------------- */
+form {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.nameBox, .mailBox, .msgbox {
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+  margin: 2vh;
+}
+
+.nom, .mail, .message {
+  padding: 2vh;
+  width: 40vw;
+  background-color: #45aaf2;
+  text-align: left;
+  color: #ffffff;
+  padding-right: 2vh;
+}
+
+.champ {
+  padding: 8px;
+  border: 4px solid #45aaf2;
+  font-weight: bold;
+  text-decoration: none;
+  height: 4vh;
+  width: 40vh;
+  background-color: rgba(255, 255, 255, .5);
+  font-size: 1rem;
+}
+
+/* ------------------------------- Swiper ------------------------------- */
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #2BCBBA !important;
+}
+
+.swiper-button-next, .swiper-button-prev {
+  color: #2BCBBA !important;
+}
+
+/* ------------------------------- Loader ------------------------------- */
+.conteneur {
+  background-color: #45aaf2;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+.loader {
+  height: 100px;
+  width: 100px;
+  vertical-align: middle;
+  position: relative;
+  margin: 5vh;
+}
+
+.loader-quart {
+  border-radius: 100px;
+  border: 10px solid rgba(255, 255, 255, .4);
+}
+
+.loader-quart:after {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  bottom: -10px;
+  right: -10px;
+  border: 10px solid transparent;
+  border-top-color: #f5f6fa;
+  border-radius: 100px;
+  animation: spin 1s linear 0s infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+}
