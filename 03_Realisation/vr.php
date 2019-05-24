@@ -6,7 +6,7 @@
 <body>
   <section id="landingPage" class="contColumn bg21">
     <div class="videoWrapper">
-      <video src="imgs/bg.mp4" autoplay="" loop="">
+      <video poster="imgs/bg.png" src="imgs/bg.mp4" autoplay="true" loop="true">
       </video>
     </div>
     <div class="textWrapper">
