@@ -1,4 +1,5 @@
 @media screen and (min-width: 600px) {
+
   /* ------------------------------- CSS RESET ------------------------------- */
   html, body, div, span, applet, object, iframe,
   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -110,7 +111,7 @@
     color: #dbdbdb;
   }
 
-  .nav{
+  .nav {
     display: none;
   }
 
@@ -150,7 +151,7 @@
   #landingPageIndex a,
   #landingPageIndex h1,
   #landingPage a,
-  #landingPage h1{
+  #landingPage h1 {
     color: #f5f6fa;
   }
 
@@ -432,6 +433,11 @@
     margin-top: -8vh;
   }
 
+  /* ------------------------------- Association - Valeurs ------------------------------- */
+  #valeurs {
+    padding: 5vh;
+  }
+
   .cont0 {
     display: flex;
     flex-direction: row;
@@ -439,11 +445,6 @@
     justify-content: flex-start;
     align-items: center;
     width: 30%;
-  }
-
-  /* ------------------------------- Association - Valeurs ------------------------------- */
-  #valeurs {
-    padding: 5vh;
   }
 
   .cont25 {
@@ -539,10 +540,10 @@
     justify-content: flex-end;
     margin-left: auto;
   }
-  
+
   /* ------------------------------- Contact ------------------------------- */
-  form{
-    display:flex;
+  form {
+    display: flex;
     margin: auto;
     flex-direction: column;
     height: 100vh;
@@ -552,7 +553,7 @@
     align-items: center;
   }
 
-  .nameBox, .mailBox, .msgbox{
+  .nameBox, .mailBox, .msgbox {
     width: 40vw;
     display: flex;
     justify-content: center;
@@ -561,7 +562,7 @@
     margin: 2vh;
   }
 
-  .nom, .mail, .message{
+  .nom, .mail, .message {
     padding: 2vh;
     width: 100px;
     background-color: #45aaf2;
@@ -569,11 +570,11 @@
     color: #ffffff;
   }
 
-  .champ{
+  .champ {
     padding: 8px;
-  	border: 4px solid #45aaf2;
-  	font-weight: bold;
-  	text-decoration: none;
+    border: 4px solid #45aaf2;
+    font-weight: bold;
+    text-decoration: none;
     height: 4vh;
     width: 100%;
     background-color: rgba(255, 255, 255, .5);
