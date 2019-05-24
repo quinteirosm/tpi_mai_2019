@@ -27,6 +27,7 @@ time, mark, audio, video, input, textarea {
 
 body {
   background-color: #f5f6fa;
+  overflow-x: hidden;
 }
 
 .bouton {
@@ -182,7 +183,7 @@ header a {
   background-attachment: fixed;
   background-position: left center;
   background-repeat: no-repeat;
-  background-size: 40%;
+  background-size: cover;
 }
 
 .bg31 {

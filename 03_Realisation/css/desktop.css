@@ -140,6 +140,7 @@
     max-width: 100vw;
     min-height: 100vh;
     z-index: 30;
+    overflow: hidden;
   }
 
   #landingPage {
@@ -176,7 +177,7 @@
     background-attachment: fixed;
     background-position: left center;
     background-repeat: no-repeat;
-    background-size: 40%;
+    background-size: inherit;
   }
 
   .bg31 {
