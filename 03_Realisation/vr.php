@@ -5,7 +5,13 @@
 <?php include_once('php/nav.php'); ?>
 <body>
   <section id="landingPage" class="contColumn bg21">
-    <h1>La VR</h1>
+    <div class="videoWrapper">
+      <video src="imgs/bg.mp4" autoplay="" loop="">
+      </video>
+    </div>
+    <div class="textWrapper">
+      <h1>La VR</h1>
+    </div>
   </section>
   <section id="description">
     <?php include_once('php/description.php'); ?>
