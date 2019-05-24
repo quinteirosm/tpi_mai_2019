@@ -23,29 +23,29 @@
   </section>
   <!-- Section de redirection --------------------------------------------------------------->
   <section id="pages">
-    <section class="contRow">
+    <section class="contRow redirectBloc">
       <div class="blocTxt">
         <a href="vr.php"><p>La VR</p></a>
       </div>
       <div class="blocIcon">
-        <a class="far fa-newspaper icon"></a>
+        <i class="fas fa-vr-cardboard icon"></i>
       </div>
       <div class="blocTxt">
         <a href="association.php"><p>L'association</p></a>
       </div>
       <div class="blocIcon">
-        <i class="fas fa-envelope icon"></i>
+        <i class="fas fa-users icon"></i>
       </div>
     </section>
-    <section class="contRow">
+    <section class="contRow redirectBloc">
       <div class="blocIcon">
-        <i class="fas fa-vr-cardboard icon"></i>
+        <a class="far fa-newspaper icon"></a>
       </div>
       <div class="blocTxt">
         <a href="blog.php"><p>Le blog</p></a>
       </div>
       <div class="blocIcon">
-        <i class="fas fa-users icon"></i>
+          <a class="far fa-envelope icon"></a>
       </div>
       <div class="blocTxt">
         <a href="association.php#contact"><p>Contact</p></a>
@@ -53,7 +53,7 @@
     </section>
   </section>
   <!-- Section association --------------------------------------------------------------->
-  <section id="association" class="contRow">
+  <section id="association" class="contRow assoMain">
     <section class="contColumn assoTxt">
       <i class="fas fa-angle-double-up icon iconAsso"></i>
       <div class="textBox">
